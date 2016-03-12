@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeInput"
+        android:amPmBackgroundColor="#57bcf2"
+        android:background="#5bc7fa"
+        android:headerBackground="#254166"
+        android:numbersBackgroundColor="#36b0ed"
+        android:numbersSelectorColor="#48c1f9"
+        android:amPmTextColor="#4d1b1b"
+        android:numbersTextColor="#257eba" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/nameInput"
+        android:layout_weight="0.69"
+        android:padding="7dp"
+        android:textColor="#34acca" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:id="@+id/addEvent"
+        android:padding="5dp"
+        android:text="OK"/>
+
+</LinearLayout>

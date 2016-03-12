@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/loopview"
+        android:scrollbars="vertical"
+        android:background="#4fd5fe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add task"
+        android:id="@+id/newEvent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/noEvent"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:text="No Events"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
